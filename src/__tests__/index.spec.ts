@@ -1,6 +1,6 @@
 import { AxiosAuthRefreshCache, AxiosAuthRefreshRequestConfig } from '../model';
 import axios, { AxiosRequestConfig, AxiosStatic } from 'axios';
-import createAuthRefreshInterceptor, { AxiosAuthRefreshOptions } from '../index';
+import { createAuthRefreshInterceptor, AxiosAuthRefreshOptions } from '../index';
 import {
     unsetCache,
     mergeOptions,

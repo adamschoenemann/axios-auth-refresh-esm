@@ -28,7 +28,7 @@ export { AxiosAuthRefreshOptions, AxiosAuthRefreshRequestConfig } from './model'
  * @param {AxiosAuthRefreshOptions} options - options for the interceptor @see defaultOptions
  * @return {number} - interceptor id (in case you want to eject it manually)
  */
-export default function createAuthRefreshInterceptor(
+export function createAuthRefreshInterceptor(
     instance: AxiosInstance,
     refreshAuthCall: (error: any) => Promise<any>,
     options: AxiosAuthRefreshOptions = {}
