@@ -1,3 +1,5 @@
+# This is a fork of the original axios-auth-refresh which exports ESM with named exports
+
 ![Package version](https://img.shields.io/npm/v/axios-auth-refresh?label=version)
 ![Package size](https://img.shields.io/bundlephobia/min/axios-auth-refresh)
 ![Package downloads](https://img.shields.io/npm/dm/axios-auth-refresh)
